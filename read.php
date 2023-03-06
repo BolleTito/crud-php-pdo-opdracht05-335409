@@ -45,6 +45,7 @@ $tableRows = "";
 
 foreach($result as $info) {
     $tableRows .= "<tr>
+                        <td>$info->Id</td>
                         <td>$info->Homeclub</td>
                         <td>$info->Lidmaatschap</td>
                         <td>$info->Looptijd</td>
@@ -74,6 +75,7 @@ foreach($result as $info) {
 <br><br>
 <table border='1'>
     <thead>
+        <th>Id</th>
         <th>Homeclub</th>
         <th>Lidmaatschap</th> 
         <th>Looptijd</th>

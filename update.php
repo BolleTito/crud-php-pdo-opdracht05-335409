@@ -84,7 +84,7 @@ $result = $statement->fetch(PDO::FETCH_OBJ);
     <title>PDO CRUD</title>
 </head>
 <body>
-    <h1>PDO CRUD</h1>
+    <h1>Basic-Fit Utrecht</h1>
 
     <form action="update.php" method="post">
 
